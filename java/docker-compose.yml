@@ -1,0 +1,11 @@
+version : "3.8"
+
+services:
+
+  postgresqldb:
+    image: postgres:alpine
+    ports:
+      - "7811:7811"
+    environment:
+      POSTGRES_PASSWORD: vknQhB8Z0RCzW49RB69D
+      POSTGRES_DB: railway
