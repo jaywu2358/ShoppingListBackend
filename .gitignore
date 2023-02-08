@@ -40,7 +40,7 @@ node_modules
 .classpath
 .project
 .settings
-target/
+
 
 ### IntelliJ IDEA ###
 .idea
