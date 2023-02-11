@@ -20,7 +20,7 @@ CREATE TABLE accounts (
 
 CREATE TABLE lists (
         list_id SERIAL,
-        list_name varchar(25) NOT NULL UNIQUE,
+        list_name varchar(25) NOT NULL,
         account_id int NOT NULL,
         claimed_by varchar(50), 
         
@@ -45,7 +45,7 @@ CREATE TABLE items (
 
 CREATE TABLE groups (
         group_id SERIAL,
-        group_name varchar(25) NOT NULL UNIQUE,
+        group_name varchar(25) NOT NULL,
             
         CONSTRAINT PK_group_id PRIMARY KEY (group_id)         
 );

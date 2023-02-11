@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://containers-us-west-88.railway.app:7811/railway
+    url: jdbc:postgresql://containers-us-west-92.railway.app:7476/railway
     username: final_capstone_appuser
     password: finalcapstone
     name: railway
